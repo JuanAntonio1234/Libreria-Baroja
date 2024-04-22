@@ -12,11 +12,11 @@ const User = connection.define('user', {
       allowNull: false,
       defaultValue: 'user',
     },
-    correo: {
+    email: {
       type: DataTypes.STRING,
       allowNull: false,
     },
-    contraseña: {
+    password: {
       type: DataTypes.STRING,
       allowNull: false,
     }
