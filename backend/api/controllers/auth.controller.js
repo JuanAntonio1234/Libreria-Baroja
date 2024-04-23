@@ -15,9 +15,10 @@ const signUp = async (req, res) => {
         email: req.body.email
       }
     })
+
     // Si existe el usuario devolvemos un mensaje con que le usuario ya existe y que así no pueda registrase si no que haga login
     if (findUser) {
-      return res.json({ message: 'User already exits' })
+      return res.json({ message: 'Email is already in use' })
     }
     // Generamos una 'sal' para el cifrado de la contraseña. Esto ayuda a asegurar la contraseña aún más
     const salt = bcrypt.genSaltSync(parseInt('10'));

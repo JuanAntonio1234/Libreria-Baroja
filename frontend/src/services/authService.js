@@ -12,11 +12,18 @@ export const login = async (data) => {
 }
 
 export const signUp = async (data) => {
-    console.log(data)
     try{
         const response = await api.post('/auth/signUp', data)
-        const response2 = await api.post('/user', data)
 
+        if(response.data.message){
+            //usuario ya existe
+            alert(response.data.message)
+        }
+        else{
+            //usuario no existe.
+            alert("User has been created successfully")
+            window.location = '/'
+        }
 
         return response
     }

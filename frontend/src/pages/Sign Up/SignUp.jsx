@@ -46,7 +46,7 @@ export default function SignUp() {
       const response = await signUp(userData);
       
   } catch (error) {
-      console.error("asdfasdf"); // Maneja los errores de la solicitud
+      console.error(error); // Maneja los errores de la solicitud
   }
 
   };
