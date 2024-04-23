@@ -1,4 +1,3 @@
-import {login, signUp} from "../../services/authService"
 import * as React from 'react';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -13,6 +12,7 @@ import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { login }  from "../../services/authService"
 
 
 
@@ -44,15 +44,15 @@ export default function SignIn() {
       password: data.get('password'),
     }
 
-    await login(userData)
+    try {
+      const response = await login(userData)
+    }
+    catch (error) {
+      console.log(error)
+    }
     
-
-    console.log({
-      email: data.get('email'),
-      password: data.get('password'),
-    });
-
   };
+
 
   return (
     <ThemeProvider theme={defaultTheme}>

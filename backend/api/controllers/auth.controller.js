@@ -61,7 +61,7 @@ const login = async (req, res) => {
 
     // Si no se encuentra un usuario con el email proporcionado, devuelve un error 404
     if (!user) {
-      return res.status(404).send('Email or password wrong'); // Mensaje de error indicando que el email o contraseña son incorrectos
+      return res.json({ message: 'Email wrong.' })
     }
 
     // Utiliza bcrypt para comparar la contraseña proporcionada con la almacenada en la base de datos
@@ -77,7 +77,7 @@ const login = async (req, res) => {
       return res.status(200).json({ token }); // El objeto json contiene el token generado
     } else {
       // Si la contraseña no es correcta, devuelve un error 404
-      return res.status(404).send('Email or password or name wrong'); // Mensaje de error similar al anterior
+      return res.json({ message: 'Password wrong.' })
     }
 
   } catch (error) {

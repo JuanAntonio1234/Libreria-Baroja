@@ -2,8 +2,16 @@ import api from './config'
 
 export const login = async (data) => {
     try{
-        const response = await api.post('/login', data)
+        const response = await api.post('/auth/login', data)
 
+
+        if(response.data.message){
+            console.log(response.data.message)
+        }
+        else{
+            alert("You have logged in successfully")
+            window.location = '/Home'
+        }
         return response
     }
     catch (err) {
