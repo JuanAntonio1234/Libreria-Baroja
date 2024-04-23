@@ -1,0 +1,37 @@
+#signUp-form{
+    background-color: white;
+    width: 20%;
+    margin-top: 4vh;
+}
+
+@media (min-width: 1537px) {
+    #signUp-form{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 1536px) and (min-width: 1201px) {
+    #signUp-form{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    #signUp-form{
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    #signUp-form{
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #signUp-form{
+        width: 70%;
+    }
+}

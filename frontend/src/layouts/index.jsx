@@ -1,13 +1,16 @@
-import { Outlet } from "react-router-dom"
+import { Outlet } from "react-router-dom";
+import Header from "../components/Header/Header";
+import "./index.css"
+
 
 function Root() {
   return (
-    <div>
-      <div>I am the Header</div>
+    <div id="page">
+      <Header/>
       <Outlet/>
       <div>I am the Footer</div>
     </div>
   )
 }
 
-export default Root
+export default Root;

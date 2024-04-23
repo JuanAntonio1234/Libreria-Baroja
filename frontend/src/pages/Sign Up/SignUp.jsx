@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { signUp }  from "../../services/authService"
+import "./signUp.css"
 
 function Copyright(props) {
   return (
@@ -52,7 +53,8 @@ export default function SignUp() {
   };
 
   return (
-    <ThemeProvider theme={defaultTheme}>
+    <div id='signUp-form'>
+      <ThemeProvider theme={defaultTheme}>
       <Container component="main" maxWidth="xs">
         <CssBaseline />
         <Box
@@ -131,5 +133,7 @@ export default function SignUp() {
         <Copyright sx={{ mt: 5 }} />
       </Container>
     </ThemeProvider>
+    </div>
+    
   );
 }

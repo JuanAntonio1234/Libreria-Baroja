@@ -8,7 +8,7 @@ const User = connection.define('user', {
       allowNull: false,
     },
     rol: {
-      type: DataTypes.ENUM('admin', 'user'),
+      type: DataTypes.ENUM('admin', 'user', "premium-user"),
       allowNull: false,
       defaultValue: 'user',
     },

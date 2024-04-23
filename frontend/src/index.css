@@ -1,0 +1,20 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://i.ytimg.com/vi/5H5V55UUPgk/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AHUBoAC4AOKAgwIABABGGUgZShlMA8=&rs=AOn4CLBO2XR45YpwUTNeDTs3hDxwKZjTvg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#h1title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#root{
+    width: 100%;
+}

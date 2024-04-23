@@ -2,15 +2,17 @@ import api from './config'
 
 export const login = async (data) => {
     try{
+        localStorage.clear()
         const response = await api.post('/auth/login', data)
 
-
         if(response.data.message){
-            console.log(response.data.message)
+            alert(response.data.message)
         }
+
         else{
+            localStorage.setItem('token', response.data.token)
             alert("You have logged in successfully")
-            window.location = '/Home'
+            window.location = '/home'
         }
         return response
     }

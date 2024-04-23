@@ -13,6 +13,7 @@ import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import { login }  from "../../services/authService"
+import { useEffect } from 'react'
 
 
 
@@ -52,6 +53,14 @@ export default function SignIn() {
     }
     
   };
+
+  useEffect(() => {
+    const token = localStorage.getItem('token')
+    if(token){
+      
+      window.location = '/home'
+    }
+  }, [])
 
 
   return (

@@ -1,10 +1,13 @@
+import { useState, useEffect } from "react";
+import "./Home.css";
+const Home= () => {
 
-const Home = () => {
-  return (
-    <div>
-        Hola :3
-    </div>
-  )
-}
+  useEffect(() => {
 
-export default Home
+  }, []);
+
+  return <div><h1 id="h1title">HOME</h1></div>;
+
+};
+
+export default Home;

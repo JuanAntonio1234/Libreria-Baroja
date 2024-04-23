@@ -72,7 +72,7 @@ const login = async (req, res) => {
       // Crea un payload con el email del usuario
       const payload = { email: req.body.email };
       // Firma un token JWT usando una clave secreta y establece un tiempo de expiración
-      const token = jwt.sign(payload, 'secret', { expiresIn: '1h' });
+      const token = jwt.sign(payload, 'secret', { expiresIn: '1000h' });
       // Devuelve el token generado con un estado 200, indicando éxito en el inicio de sesión
       return res.status(200).json({ token }); // El objeto json contiene el token generado
     } else {
