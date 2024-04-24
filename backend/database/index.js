@@ -24,7 +24,7 @@ const connection = new Sequelize('libreria-baroja', 'juan', '1234', {
       await connection.sync()
       console.log('Models added')
     } catch (error) {
-      console.log("AAAAAAAAAAAAAAAAA " + error)
+      console.log(error)
     }
   }
   

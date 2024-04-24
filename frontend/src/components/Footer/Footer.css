@@ -1,0 +1,20 @@
+#footer{
+    width: 100%;
+    background-color: black;
+    color:white;
+    height: 5vh;
+    display: flex;
+    font-size: x-large;
+}
+
+.footer-text{
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: white;   
+    text-underline-offset: 5px;
+}

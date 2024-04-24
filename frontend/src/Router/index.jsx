@@ -1,14 +1,16 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Root from '../layouts'
 import Home from '../pages/Home/Home'
-import Library from '../pages/Library/Library'
+import Library from '../pages/PersonalLibrary/Library'
 import SignIn from '../pages/Sign In/SignIn'
 import SignUp from "../pages/Sign Up/SignUp"
+import ErrorElement from '../pages/ErrorElement/ErrorElement'
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
+    errorElement: <ErrorElement />,
     children:[
         {
             path: '/',
@@ -23,7 +25,7 @@ const router = createBrowserRouter([
           element: <Home />
         },
         {
-          path: "/library",
+          path: "/personal-library",
           element: <Library />
         }
         

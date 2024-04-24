@@ -43,7 +43,7 @@ function Header() {
       window.location = "/"
     }
     else if(event.target.innerText === "My library" && localStorage.getItem("token")){
-      window.location = "/library"
+      window.location = "/personal-library"
     }
     handleCloseUserMenu()
   }
@@ -68,7 +68,7 @@ function Header() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            LIBRERÍA B A R O J A
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -124,7 +124,7 @@ function Header() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            LIBRERÍA B A R O J A
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (

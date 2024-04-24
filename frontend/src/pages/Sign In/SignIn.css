@@ -1,0 +1,37 @@
+#signIn-form{
+    background-color: white;
+    width: 20%;
+    margin-top: 4vh;
+}
+
+@media (min-width: 1537px) {
+    #signIn-form{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 1536px) and (min-width: 1201px) {
+    #signIn-form{
+        width: 40%;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 901px) {
+    #signIn-form{
+        width: 50%;
+    }
+}
+
+@media (max-width: 900px) and (min-width: 601px) {
+    #signIn-form{
+        width: 60%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    #signIn-form{
+        width: 70%;
+    }
+}

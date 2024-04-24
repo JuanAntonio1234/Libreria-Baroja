@@ -6,7 +6,7 @@ const Home= () => {
 
   }, []);
 
-  return <div><h1 id="h1title">HOME</h1></div>;
+  return <div id="home"><h1 id="h1title">HOME</h1></div>;
 
 };
 

@@ -13,6 +13,14 @@ async function getBookById(req, res) {
   res.send(book)
 }
 
+async function getBooksByGenre(req, res) {
+  const allBooks = await Book.findAll()
+  const booksByGenre = allBooks.filter((book) => {
+    return book.genres.includes(req.params.genre)
+  })
+  res.send(booksByGenre)
+}
+
 async function createBook(req, res) {
   try {
     const book = await Book.create(req.body)
@@ -49,5 +57,6 @@ module.exports = {
   getBookById,
   createBook,
   updateBookById,
-  deleteBookById
+  deleteBookById,
+  getBooksByGenre
 }
