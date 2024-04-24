@@ -1,0 +1,12 @@
+.book-image{
+    width: 300px;
+    height: 300px;
+}
+
+.book{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3vh;
+    border: 2px solid black;
+}
