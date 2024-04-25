@@ -12,7 +12,7 @@ const Book = (props) => {
 
 
   return (
-    <div className="book">
+    <div className="book" onClick={() => window.location.href = `/book/${book.id}`}>
       {book ? <>
         <img className="book-image" src={book.image} alt=""/>      </> : "Loading..."}
     </div>

@@ -49,7 +49,7 @@ function Header() {
   }
 
   const handleNavMenu = (event) => {
-    if(event.target.innerText == "Library"){ 
+    if(event.target.innerText == "Library" || event.target.innerText == "LIBRARY"){ 
       window.location = "/library"
     }
     handleCloseNavMenu()

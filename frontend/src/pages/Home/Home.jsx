@@ -12,22 +12,15 @@ const Home= () => {
     const getLibros = async () => {
       const books = await getAllBooks();
       setLibros(books.data);
-
     }
-
-    
-
     getLibros();
-    
-
-    
   }, []);
 
   return <div id="home">
 
       <h1 id="h1title">HOME</h1>
 
-      <div class="row-display">
+      <div className="row-display">
         <h1 id="popular-books-title">Libros más populares</h1>
         <div id="book-display">
           {libros ? <Book book={libros[0]}/> : "Loading..."}
@@ -43,7 +36,7 @@ const Home= () => {
         </div>
       </div>
 
-      <div class="row-display">
+      <div className="row-display">
         <h1 id="popular-books-title">Libros más vendidos</h1>
         <div id="book-display">
           {libros ? <Book book={libros[20]}/> : "Loading..."}

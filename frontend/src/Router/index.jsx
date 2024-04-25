@@ -5,6 +5,7 @@ import PersonalLibrary from '../pages/PersonalLibrary/PersonalLibrary'
 import Library from '../pages/Library/Library'
 import SignIn from '../pages/Sign In/SignIn'
 import SignUp from "../pages/Sign Up/SignUp"
+import Book from "../pages/Book/Book"
 import ErrorElement from '../pages/ErrorElement/ErrorElement'
 
 const router = createBrowserRouter([
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
         {
           path: "/library",
           element: <Library />
+        },
+        {
+          path: "/book/:id",
+          element: <Book />
         }
         
     ]
