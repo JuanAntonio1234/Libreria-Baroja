@@ -18,9 +18,9 @@ const Home= () => {
 
   return <div id="home">
 
-      <h1 id="h1title">HOME</h1>
+      <h1>COLECCIONES</h1>
 
-      <div className="row-display">
+      {/* <div className="row-display">
         <h1 id="popular-books-title">Libros más populares</h1>
         <div id="book-display">
           {libros ? <Book book={libros[0]}/> : "Loading..."}
@@ -49,7 +49,16 @@ const Home= () => {
           {libros ? <Book book={libros[32]}/> : "Loading..."}
 
         </div>
+      </div> */}
+
+
+      <div id="categories">
+        <div className="category" id="category-1" onClick={() => window.location.href = "/library"}><p className="category-text">LIBROS</p></div>
+        <div className="category" id="category-2" onClick={() => window.location.href = "/comics"}> <p className="category-text">COMICS</p></div>
+        <div className="category" id="category-3" onClick={() => window.location.href = "/mangas"}> <p className="category-text">MANGAS</p></div>
       </div>
+        
+
 
     </div>;
 

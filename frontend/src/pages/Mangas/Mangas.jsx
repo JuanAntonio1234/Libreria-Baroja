@@ -1,10 +1,9 @@
 import { useState, useEffect } from "react";
 import { getAllBooks } from "../../services/bookService";
 import Book from "../../components/Book/Book";
-import "./Library.css"
+import "./Mangas.css"
 
-const Library = () => {
-
+const Mangas = () => {
   const [libros, setLibros] = useState([]);
 
   useEffect(() => {
@@ -16,7 +15,7 @@ const Library = () => {
 
       for (let i = 0; i < books.data.length; i++) {
 
-        if(!books.data[i].genres.includes("Manga") && !books.data[i].genres.includes("Cómic")){
+        if(books.data[i].genres.includes("Manga")){
           books_.push(books.data[i])
         }
       }
@@ -29,7 +28,7 @@ const Library = () => {
     const allBooks = await getAllBooks();
 
     const books = allBooks.data.filter(book => {
-      if(!book.genres.includes("Manga") && !book.genres.includes("Cómic")){
+      if(book.genres.includes("Manga")){
         return book
       }
     })
@@ -55,7 +54,7 @@ const Library = () => {
 
   return (
     <div id="library">
-      <h1>Libros</h1>
+      <h1>Mangas</h1>
       
       <div><input type="text" id="search" placeholder="Search..."></input>
       
@@ -64,7 +63,16 @@ const Library = () => {
         <option value="Drama">Drama</option>
         <option value="Romance">Romance</option>
         <option value="Aventura">Aventura</option>
-        <option value="Novela">Novela</option>
+        <option value="Acción">Acción</option>
+        <option value="Fantasía">Fantasía</option>
+        <option value="Superhéroes">Superhéroes</option>
+        <option value="Terror">Terror</option>
+        <option value="Música">Música</option>
+        <option value="Psicológico">Psicológico</option>
+        <option value="Misterio">Misterio</option>
+        <option value="Comedia Romántica">Comedia Romántica</option>
+        <option value="Comedia">Comedia</option>
+
       </select>
       
       <button id="search-button" onClick={() => {
@@ -77,6 +85,7 @@ const Library = () => {
       
     </div>
   )
+
 }
 
-export default Library
+export default Mangas

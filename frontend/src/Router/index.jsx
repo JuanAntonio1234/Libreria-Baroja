@@ -3,6 +3,8 @@ import Root from '../layouts'
 import Home from '../pages/Home/Home'
 import PersonalLibrary from '../pages/PersonalLibrary/PersonalLibrary'
 import Library from '../pages/Library/Library'
+import Comics from '../pages/Comics/Comics'
+import Mangas from '../pages/Mangas/Mangas'
 import SignIn from '../pages/Sign In/SignIn'
 import SignUp from "../pages/Sign Up/SignUp"
 import Book from "../pages/Book/Book"
@@ -33,6 +35,14 @@ const router = createBrowserRouter([
         {
           path: "/library",
           element: <Library />
+        },
+        {
+          path: "/comics",
+          element: <Comics />
+        },
+        {
+          path: "/mangas",
+          element: <Mangas />
         },
         {
           path: "/book/:id",

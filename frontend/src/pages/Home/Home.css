@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
     
 }
 
@@ -24,11 +25,57 @@
     margin-bottom: 10px;
     background-color: rgb(245, 245, 245);
     box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.3);
-
 }
 
 #book-display{
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
+    overflow: scroll;
+}
+
+
+#categories{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.category{
+    display: flex;
+    width: 27%;
+    height: 50%;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+#category-1{
+    background-image: url("https://media.discordapp.net/attachments/1230180481170018304/1233415857187586141/Mineria-en-literatura-editorial.jpg?ex=662d0388&is=662bb208&hm=c99eb2ee103e99ac1449d885b8246f44d4258013b34d4cfe985859a07db10c07&=&format=webp&width=951&height=535");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#category-2{
+    background-image: url("https://media.discordapp.net/attachments/1230180481170018304/1233416363918360686/GettyImages-576841510-588de04f3df78caebcbb23fe.jpg?ex=662d0400&is=662bb280&hm=fa4dc81087b41cca1e9590a65048aa2795d01fdda26fc5e0e0095985c418f65c&=&format=webp&width=951&height=636");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+#category-3{
+    background-image: url("https://media.discordapp.net/attachments/1230180481170018304/1233416653161627648/manga-o-anime.jpg?ex=662d0445&is=662bb2c5&hm=8c1ad9d16d284ddb0759b5be98aacba40f768e135d626a41b0818c2a098e218a&=&format=webp&width=951&height=535");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+.category-text{
+    background-color: black;
 }
