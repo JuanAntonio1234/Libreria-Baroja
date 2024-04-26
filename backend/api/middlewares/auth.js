@@ -3,6 +3,8 @@ const jwt = require('jsonwebtoken')
 
 
 function checkAuth(req, res, next) {
+  console.log("Esto se ejecuta.")
+
       // Verificamos si la petición tiene el encabezado de autorización
   if (!req.headers.authorization) {
     // Si no se encuentra el encabezado de autorización, retorna un error 404
@@ -34,9 +36,6 @@ function checkAuth(req, res, next) {
       // Si se encuentra el usuario, lo almacena en el objeto res.locals para su uso en el siguiente middleware
       res.locals.user = user;
       // Llama a la función next para continuar con el próximo middleware en la cadena
-      
-
-
       next()
     }
   );

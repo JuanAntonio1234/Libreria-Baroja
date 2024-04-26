@@ -9,8 +9,10 @@ const {
     addBookToUserLibrary
 } = require("../controllers/user_book.controller.js")
 
+const { checkAuth } = require('../middlewares/auth.js')
+
+router.get('/user', checkAuth, getBooksByUser)
 router.get('/', getAll)
-router.get('/:id', getBooksByUser)
-router.post('/', addBookToUserLibrary)
+router.post('/', checkAuth, addBookToUserLibrary)
 
 module.exports = router

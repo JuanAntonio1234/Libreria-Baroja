@@ -48,6 +48,6 @@ module.exports = {
 	getAllUsers,
 	getUserById,
 	createUser,
-    updateUser,
-    deleteUserById
+  updateUser,
+  deleteUserById
 }

@@ -9,12 +9,14 @@ const Book = (props) => {
     useEffect(() => {
         setBook(props.book)
     }, [props.book])
+    
 
 
   return (
     <div className="book" onClick={() => window.location.href = `/book/${book.id}`}>
       {book ? <>
-        <img className="book-image" src={book.image} alt=""/>      </> : "Loading..."}
+        <img className="book-image" src={book.image} alt=""/>
+        </> : "Loading..."}
     </div>
   )
 }
