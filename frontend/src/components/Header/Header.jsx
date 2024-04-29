@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Library', 'Suscríbete', 'Blog'];
+const pages = ['Libros', 'Mangas', 'Cómics', 'Suscríbete'];
 const settings = ['Profile', 'My library', 'Logout'];
 
 function Header() {
@@ -50,8 +50,14 @@ function Header() {
 
   const handleNavMenu = (event) => {
     console.log(event.target.innerText)
-    if(event.target.innerText == "Library" || event.target.innerText == "LIBRARY"){ 
+    if(event.target.innerText == "Libros" || event.target.innerText == "LIBROS"){ 
       window.location = "/library"
+    }
+    else if(event.target.innerText == "Mangas" || event.target.innerText == "MANGAS"){
+      window.location = "/mangas"
+    }
+    else if(event.target.innerText == "Cómics" || event.target.innerText == "CÓMICS"){
+      window.location = "/comics"
     }
     else if(event.target.innerText == "Suscríbete" || event.target.innerText == "SUSCRÍBETE"){
       window.location = "/subscribe"
