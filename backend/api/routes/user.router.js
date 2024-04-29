@@ -15,7 +15,7 @@ const { checkAuth } = require('../middlewares/auth.js')
 
 router.get('/', getAllUsers)
 //router.get('/checkAuth', checkAuth)
-router.get('/:id', getUserById)
+router.get('/user', checkAuth, getUserById)
 router.post('/', createUser)
 router.put('/update', checkAuth, updateUser)
 router.delete('/:id', deleteUserById)

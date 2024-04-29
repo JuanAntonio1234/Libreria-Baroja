@@ -15,3 +15,7 @@ export const addBookToUserLibrary = (data, token) => {
         }
     })
 }
+
+export const deleteBookFromUserLibrary = (id) => {
+    return api.delete(`/user-book/${id}`)
+}

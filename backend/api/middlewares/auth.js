@@ -11,7 +11,6 @@ function checkAuth(req, res, next) {
     // Si no se encuentra el encabezado de autorización, retorna un error 404
     return res.status(404).send("Token not found");
   }
-
   // Utilizamos jwt.verify para validar el token proporcionado
   jwt.verify(
     req.headers.authorization, // El token extraído del encabezado de autorización

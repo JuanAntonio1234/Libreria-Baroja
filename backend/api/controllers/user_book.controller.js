@@ -23,9 +23,20 @@ async function getAll (req, res) {
     res.send(registers)
 }
 
+async function deleteBook (req, res) {
+    console.log(req.params)
+    const userBook = await UserBook.destroy({
+        where: {
+            bookId: req.params.id
+        }
+    })
+    res.send("Book deleted")
+}
+
 
 module.exports = {
     getBooksByUser,
     addBookToUserLibrary,
-    getAll
+    getAll,
+    deleteBook
 }

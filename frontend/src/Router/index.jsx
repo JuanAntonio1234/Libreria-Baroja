@@ -10,6 +10,7 @@ import SignUp from "../pages/Sign Up/SignUp"
 import Book from "../pages/Book/Book"
 import Subscribe from "../pages/Subscribe/Subscribe"
 import ErrorElement from '../pages/ErrorElement/ErrorElement'
+import ReadBook from '../pages/ReadBook/ReadBook'
 
 const router = createBrowserRouter([
   {
@@ -52,6 +53,10 @@ const router = createBrowserRouter([
         {
           path: "/subscribe",
           element: <Subscribe />
+        },
+        {
+          path: "/read-book/:id",
+          element: <ReadBook />
         }
         
     ]

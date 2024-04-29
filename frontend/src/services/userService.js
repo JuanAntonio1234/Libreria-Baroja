@@ -7,3 +7,11 @@ export const updateUser = (token) => {
           },
     })
 }
+
+export const validateUser = (token) => {
+    return api.get('/user/user', {
+        headers: {
+            "authorization": `${token}`
+        }
+    })
+}

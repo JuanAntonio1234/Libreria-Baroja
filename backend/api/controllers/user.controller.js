@@ -9,7 +9,7 @@ async function getAllUsers(req, res) {
 }
 
 async function getUserById(req, res) {
-  const user = await User.findByPk(req.params.id)
+  const user = await User.findByPk(res.locals.user.id)
   res.send(user)
 }
 
