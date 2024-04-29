@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Library', 'Pricing', 'Blog'];
+const pages = ['Library', 'Suscríbete', 'Blog'];
 const settings = ['Profile', 'My library', 'Logout'];
 
 function Header() {
@@ -49,8 +49,12 @@ function Header() {
   }
 
   const handleNavMenu = (event) => {
+    console.log(event.target.innerText)
     if(event.target.innerText == "Library" || event.target.innerText == "LIBRARY"){ 
       window.location = "/library"
+    }
+    else if(event.target.innerText == "Suscríbete" || event.target.innerText == "SUSCRÍBETE"){
+      window.location = "/subscribe"
     }
     handleCloseNavMenu()
   }

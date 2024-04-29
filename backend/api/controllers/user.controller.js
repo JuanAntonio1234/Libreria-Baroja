@@ -24,8 +24,10 @@ async function createUser(req, res) {
 
 async function updateUser(req, res) {
   try {
-    const user = await User.update(req.body, {
-      where: { id: req.params.id },
+    const user = await User.update({
+      rol: "premiumUser"
+    }, {
+      where: { id: res.locals.user.id },
     })
     res.send(user)
   } catch (error) {

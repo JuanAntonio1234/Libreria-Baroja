@@ -1,12 +1,13 @@
 const User = require('../models/user.model')
 const jwt = require('jsonwebtoken')
 
+//req.body.headers.authorization
+//req.headers.authorization
 
 function checkAuth(req, res, next) {
-  console.log("Esto se ejecuta.")
-
       // Verificamos si la petición tiene el encabezado de autorización
   if (!req.headers.authorization) {
+    console.log("NO HABEMUS AUTORIZACIÓN")
     // Si no se encuentra el encabezado de autorización, retorna un error 404
     return res.status(404).send("Token not found");
   }

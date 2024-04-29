@@ -3,6 +3,7 @@ import { useParams } from "react-router-dom"
 import { getBookById } from "../../services/bookService"
 import "./Book.css"
 import AddBookPersonalLibrary from "../../components/AddBookPersonalLibrary/AddBookPersonalLibrary"
+import ReadBookButton from "../../components/ReadBookButton/ReadBookButton"
 
 const Book = () => {
 
@@ -16,7 +17,7 @@ const Book = () => {
     }, [])
 
   return (
-    <div>
+    <div id="book">
     <h1>{book ? book.name : "Loading..."}</h1>
     <h2>{book ? book.author : "Loading..."}</h2>
     <img src={book ? book.image : "Loading..."} alt=""/>
@@ -24,7 +25,9 @@ const Book = () => {
     <p>{book ? book.price+"€" : "Loading..."}</p>
     <p>{book ? book.editorial : "Loading..."}</p>
     <p>{book ? book.genres : "Loading..."}</p>
-    <AddBookPersonalLibrary book={book}/>
+    <div><AddBookPersonalLibrary book={book}/>
+    <ReadBookButton/></div>
+    
     </div>
   )
 }

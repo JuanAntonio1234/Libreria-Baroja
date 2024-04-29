@@ -17,7 +17,7 @@ router.get('/', getAllUsers)
 //router.get('/checkAuth', checkAuth)
 router.get('/:id', getUserById)
 router.post('/', createUser)
-router.put('/:id', updateUser)
+router.put('/update', checkAuth, updateUser)
 router.delete('/:id', deleteUserById)
 
 module.exports = router

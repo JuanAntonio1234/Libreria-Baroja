@@ -1,0 +1,11 @@
+.read-book{
+    background-color: rgb(252, 122, 57);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
