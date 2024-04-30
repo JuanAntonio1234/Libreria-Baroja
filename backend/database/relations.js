@@ -5,8 +5,8 @@ const UserBook = require('../api/models/user_book.model.js')
 const initializeRelations = () => {
   try {
     
-    User.belongsToMany(Book, { through: 'user_book' })
-    Book.belongsToMany(User, { through: 'user_book' })
+    User.belongsToMany(Book, { through: UserBook })
+    Book.belongsToMany(User, { through: UserBook })
 
     console.log('Relations added to models')
   } catch (error) {
