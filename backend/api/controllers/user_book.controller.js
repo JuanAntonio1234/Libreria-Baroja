@@ -1,6 +1,8 @@
 /* eslint-disable no-undef */
 // book.controller.js
 
+const Book = require('../models/book.model.js')
+const User = require('../models/user.model.js')
 const UserBook = require('../models/user_book.model.js')
 
 async function getBooksByUser(req, res) {
@@ -31,6 +33,18 @@ async function deleteBook (req, res) {
         }
     })
     res.send("Book deleted")
+}
+
+
+async function getBooksByUserProfile(req, res) {
+    const user = await User.findAll({
+        where: {
+            email: res.locals.user.email
+        },
+        include: Book
+    })
+    console.log(user[0].books)
+    res.send(user[0].books)
 }
 
 

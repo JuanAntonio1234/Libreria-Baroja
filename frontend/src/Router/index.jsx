@@ -11,6 +11,7 @@ import Book from "../pages/Book/Book"
 import Subscribe from "../pages/Subscribe/Subscribe"
 import ErrorElement from '../pages/ErrorElement/ErrorElement'
 import ReadBook from '../pages/ReadBook/ReadBook'
+import Profile from '../pages/Profile/Profile'
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
         {
           path: "/personal-library",
           element: <PersonalLibrary />
+        },
+        {
+          path: "/profile",
+          element: <Profile />
         },
         {
           path: "/library",

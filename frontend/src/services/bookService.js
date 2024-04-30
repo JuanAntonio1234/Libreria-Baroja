@@ -1,9 +1,9 @@
 import api from './config'
 
-export const getAllBooks = () => {
-    return api.get('/book')
+export const getAllBooks = async () => {
+    return await api.get('/book')
 }
 
-export const getBookById = (id) => {
-    return api.get(`/book/${id}`)
+export const getBookById = async (id) => {
+    return  await api.get(`/book/${id}`)
 }

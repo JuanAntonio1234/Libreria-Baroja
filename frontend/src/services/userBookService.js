@@ -1,21 +1,23 @@
 import api from './config'
 
-export const getAllUserBooks = (token) => {
-    return api.get(`/user-book/user`, {
+export const getAllUserBooks = async (token) => {
+    const response = await api.get(`/user-book/user`, {
         headers: {
             "authorization": `${token}`
         }
     })
+    return response
 }
 
-export const addBookToUserLibrary = (data, token) => {
-    return api.post('/user-book', data, {
+export const addBookToUserLibrary = async (data, token) => {
+    const response = await api.post('/user-book', data, {
         headers: {
             "authorization": `${token}`
         }
     })
+    return response
 }
 
-export const deleteBookFromUserLibrary = (id) => {
-    return api.delete(`/user-book/${id}`)
+export const deleteBookFromUserLibrary = async (id) => {
+    return await api.delete(`/user-book/${id}`)
 }

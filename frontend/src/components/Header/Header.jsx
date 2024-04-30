@@ -45,24 +45,28 @@ function Header() {
     else if(event.target.innerText === "My library" && localStorage.getItem("token")){
       window.location = "/personal-library"
     }
+    else if(event.target.innerText === "Profile" && localStorage.getItem("token")){
+      window.location = "/profile"
+    }
+
     handleCloseUserMenu()
   }
 
   const handleNavMenu = (event) => {
-    console.log(event.target.innerText)
-    if(event.target.innerText == "Libros" || event.target.innerText == "LIBROS"){ 
-      window.location = "/library"
+    const menuItem = event.target.innerText.toUpperCase();
+    const menuItems = {
+      "LIBROS": "/library",
+      "MANGAS": "/mangas",
+      "CÓMICS": "/comics",
+      "SUSCRÍBETE": "/subscribe"
+    };
+  
+    const url = menuItems[menuItem];
+    if (url) {
+      window.location = url;
     }
-    else if(event.target.innerText == "Mangas" || event.target.innerText == "MANGAS"){
-      window.location = "/mangas"
-    }
-    else if(event.target.innerText == "Cómics" || event.target.innerText == "CÓMICS"){
-      window.location = "/comics"
-    }
-    else if(event.target.innerText == "Suscríbete" || event.target.innerText == "SUSCRÍBETE"){
-      window.location = "/subscribe"
-    }
-    handleCloseNavMenu()
+  
+    handleCloseNavMenu();
   }
 
   return (
