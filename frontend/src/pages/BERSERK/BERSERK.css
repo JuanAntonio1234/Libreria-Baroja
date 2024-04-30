@@ -1,0 +1,13 @@
+#BERSERK{
+    height: 100%;
+    background-image: url("https://cdn.businessinsider.es/sites/navi.axelspringer.es/public/media/image/2023/09/fernando-iglesias-3143348.jpg?tf=3840x");
+    background-size: cover;
+}
+
+#BERSERK-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+}

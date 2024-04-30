@@ -12,6 +12,7 @@ import Subscribe from "../pages/Subscribe/Subscribe"
 import ErrorElement from '../pages/ErrorElement/ErrorElement'
 import ReadBook from '../pages/ReadBook/ReadBook'
 import Profile from '../pages/Profile/Profile'
+import BERSERK from '../pages/BERSERK/BERSERK'
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
         {
           path: "/read-book/:id",
           element: <ReadBook />
+        },
+        {
+          path: "/BERSERK",
+          element: <BERSERK />
         }
         
     ]

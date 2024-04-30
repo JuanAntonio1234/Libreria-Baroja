@@ -65,8 +65,9 @@ const PersonalLibrary = () => {
                 <div className="book-info" key={idx}>
                   <Book book={libro} />
                   <h2>{libro.name}</h2>
-                  <p>{libro.author}</p>
-                  <h3>{libro.price + "€"}</h3>
+                  <p>{"Author: " + libro.author}</p>
+                  <h3>{"Price: " + libro.price + "€"}</h3>
+                  <p>{"Editorial: " + libro.editorial}</p>
                   <p>{/*librosTablaIntermedia[idx].status*/}</p>
                   <button className="delete-book" onClick={() => {
                     console.log(librosTablaIntermedia[idx].bookId)
