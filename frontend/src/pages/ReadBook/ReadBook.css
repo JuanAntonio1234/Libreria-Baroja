@@ -3,13 +3,12 @@
     flex-direction: column;
     align-items: center;
     width: 25%;
-    height: 100%;
     font-size: x-large;
     font-weight: bold;
     
 }
 
-#book{
+#book_read{
     background-color: rgb(235, 235, 235);
     font-family: 'Times New Roman', Times, serif;
     padding: 20px;

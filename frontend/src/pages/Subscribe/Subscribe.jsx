@@ -63,6 +63,15 @@ const Subscribe = () => {
     <Elements stripe={stripePromise}>
         <div id="subscribe">
             <CheckoutForm/>
+            <h2>Ventajas</h2>
+            <ul>
+                <li>Acceso ilimitado al catálogo desde cualquier dispositivo, estés donde estés.</li>
+                
+                <li>Crea tu biblioteca personal y accede a todos tus libros por solo 5€ al mes.</li>
+                
+                <li>Sin compromiso de permanencia.</li>
+            </ul>
+            <p></p>
         </div>
         
     </Elements>

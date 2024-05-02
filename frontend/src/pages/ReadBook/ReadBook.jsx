@@ -31,7 +31,7 @@ const ReadBook = () => {
   return (
     <div id="read-book">
       <h1>{bookTitle ? bookTitle : "Loading..."}</h1>
-      <p id="book"> {book ? book : "Loading..."} </p>
+      <p id="book_read"> {book ? book : "Loading..."} </p>
     </div>
   );
 };
