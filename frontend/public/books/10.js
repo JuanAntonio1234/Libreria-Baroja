@@ -1,6 +1,6 @@
 const book = {
-    title: "Naruto",
-    book: "En el mundo de los ninjas, aquellos que dominan la habilidad para controlar su chakra son llamados shinobi. Hay países en este mundo de ninjas, y a su vez, estos países tienen sus respectivas aldeas ninjas. En el país del fuego, la aldea oculta de la hoja es una de las cinco grandes aldeas ninjas. En esta aldea, hay una persona conocida como el Hokage, la persona más poderosa de la aldea."
+    title: "El Principito",
+    book: `Cuando yo tenía seis años vi en un libro sobre la selva virgen que se titulaba "Historias vividas", una magnífica lámina. Representaba una serpiente boa que se tragaba a una fiera. He aquí la copia del dibujo. En el libro se afirmaba: "Las serpientes boas se tragan su presa entera, sin masticarla. Luego no pueden moverse, y duermen durante los seis meses que dura su digestión". Reflexioné mucho en ese momento sobre las aventuras de la jungla y a mi vez logré trazar con un lápiz de colores mi primer dibujo.`
 }
 
 export default book

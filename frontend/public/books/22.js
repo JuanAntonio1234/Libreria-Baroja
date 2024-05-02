@@ -1,6 +1,8 @@
 const book = {
-    title: "El alquimista",
-    book: `El alquimista cogió un libro que alguien de la caravana había traído. Miró la portada, donde había una serpiente devorando a su propia cola, y leyó el primer párrafo. Al instante, se sintió enfermo. Eso fue todo lo que pudo leer. Le dijo al muchacho que no entendía de alquimia, pero que podía entender a su manera la lengua de los alquimistas. Comprendía que en la lengua que utiliza el libro, cada letra es una afirmación que se expresa en un nivel más profundo. Al leer esa lengua, el alquimista entendió que los libros de alquimia son escritos por los alquimistas, y no por aquellos que quieren saber más acerca de lo que es ser alquimista.`
+    title: "El código Da Vinci",
+    book: `Renoncer: aceptar una realidad sin importar lo difícil que sea. Renunciar al ego. Renunciar a los deseos personales y a la necesidad de controlar a los demás. Renunciar al apego a la vida tal y como la conocemos.
+
+    A Langdon le costaba imaginar a quienquiera que fuera el hombre que había escrito esas palabras. Renunciar, renunciar, renunciar... Todo en la vida era cuestión de dejar atrás algo. La regla era simple: encontrar un equilibrio entre el exceso y la carencia.`
 }
 
 export default book

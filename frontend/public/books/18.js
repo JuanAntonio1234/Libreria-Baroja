@@ -1,6 +1,6 @@
 const book = {
-    title: "Shigatsu wa Kimi no Uso",
-    book: `Shigatsu wa Kimi no Uso, también conocido como Your Lie in April, cuenta la historia de Kousei Arima, un prodigioso pianista que perdió la capacidad de escuchar el sonido del piano después de la muerte de su madre. Kousei vive una vida monótona y sin sentido hasta que conoce a Kaori Miyazono, una vibrante violinista que lo saca de su letargo y lo inspira a redescubrir la música y el amor.`
+    title: "Demon Slayer: Kimetsu no Yaiba",
+    book: `En un mundo donde los demonios acechan en la oscuridad y amenazan la existencia de la humanidad, los cazadores de demonios, conocidos como "Demon Slayer", luchan valientemente para proteger a la gente. Tanjiro Kamado, un joven bondadoso y dedicado, se embarca en una peligrosa misión después de que su familia sea brutalmente asesinada por un demonio, y su hermana Nezuko se convierta en uno de ellos.`
 }
 
 export default book

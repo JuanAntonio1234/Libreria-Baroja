@@ -1,6 +1,6 @@
 const book = {
-    title: "Crimen y Castigo",
-    book: "En el mes de julio, en un caluroso día que luchaba con los cálculos y adivinanzas de un examen final en la universidad, un joven salió apresuradamente de su pequeña habitación en la callejuela de S--- en San Petersburgo, y, sin detenerse un momento, se dirigió con paso firme hacia el puente del canal. Había decidido hacer algo inesperado, y en su rostro había una expresión de determinación, casi de desafío. Daba la impresión de haber resuelto hacer cualquier cosa en el mundo antes que seguir soportando por más tiempo lo que ya se había vuelto intolerable."
+    title: "Moby Dick",
+    book: "Llamadme Ismael. Hace unos años, no importa cuánto hace exactamente, teniendo poco o ningún dinero en el bolsillo, y nada en particular que me interesara en tierra firme, pensé que probaría un poco el mar. Es posible que sea un tanto melancólico. Era en un sábado por la tarde de diciembre. No recuerdo haber visto jamás en mi vida a la ciudad de Manhattan tan solitaria: la calle de la ciudad se deslizaba solitaria entre los edificios como si fuera una serpiente."
 }
 
 export default book

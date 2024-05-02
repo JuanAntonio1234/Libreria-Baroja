@@ -1,6 +1,6 @@
 const book = {
-    title: "Fullmetal Alchemist",
-    book: `En un mundo donde la alquimia es una ciencia avanzada y poderosa, dos hermanos, Edward y Alphonse Elric, desafían las leyes naturales en un intento desesperado por resucitar a su madre fallecida. Sin embargo, su experimento falla catastróficamente, dejando a Edward sin un brazo y una pierna, y a Alphonse con su alma atrapada en una armadura. Decididos a encontrar una manera de restaurar sus cuerpos, los hermanos Elric se embarcan en un viaje épico lleno de peligros y descubrimientos.`
+    title: "My Hero Academia",
+    book: `En un mundo donde casi toda la población tiene algún tipo de habilidad sobrenatural conocida como "Quirk", ser un héroe se ha convertido en una profesión común. Los héroes, dotados de poderes especiales, luchan contra los villanos y protegen a la sociedad. Sin embargo, para Izuku Midoriya, un chico que nació sin Quirk pero sueña con convertirse en un gran héroe como su ídolo All Might, el camino hacia su sueño parece imposible.`
 }
 
 export default book

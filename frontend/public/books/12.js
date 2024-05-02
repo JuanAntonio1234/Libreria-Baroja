@@ -1,6 +1,6 @@
 const book = {
-    title: "Attack on Titan",
-    book: "En el mundo que una vez fue dominado por monstruos, la humanidad ha construido murallas para protegerse. Dentro de estas murallas, vivían en paz, creyendo que estaban a salvo de los horrores más allá de ellas. Sin embargo, un día, un Titán Colosal, más alto que cualquier muro, apareció de repente y destruyó la ilusión de seguridad que habían construido. Los Titánes invadieron el territorio humano, devorando a todo a su paso."
+    title: "Naruto",
+    book: "En el mundo de los ninjas, aquellos que dominan la habilidad para controlar su chakra son llamados shinobi. Hay países en este mundo de ninjas, y a su vez, estos países tienen sus respectivas aldeas ninjas. En el país del fuego, la aldea oculta de la hoja es una de las cinco grandes aldeas ninjas. En esta aldea, hay una persona conocida como el Hokage, la persona más poderosa de la aldea."
 }
 
 export default book

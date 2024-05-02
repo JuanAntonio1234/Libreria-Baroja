@@ -1,12 +1,6 @@
 const book = {
-    title: "Watchmen",
-    book: `El comediante mira abajo. Desde esta altura, desde la azotea del Rockefeller Center, la gente parece pequeña y tan próxima. ¡Tan susceptible!
-
-    De repente, la ciudad está llena de súbitos y agudos ruidos. El sol sale como una hendidura de plata sobre el mar, rompiendo la oscuridad de la noche. La ciudad yace abajo, tan vulnerable.
-    
-    Y él es tan grande, fuerte, un Dios. Su pecho es amplio y su sonrisa confiada. Pero debajo de la máscara, el comediante llora.
-    
-    La ciudad es Nueva York. La hora, las 11:25 PM. La noche es de abril. La ciudad está llena de ruido. La ciudad está llena de vida.`
+    title: "Los juegos del hambre",
+    book: `Al despertarme, el otro lado de la cama está frío. Mi dedo se desliza por la hoja de papel amarillenta, tratando torpemente de tomar en palabras escritas. Anuncio televisivo. Escenas del pasado. Yo estoy corriendo por el bosque. Las hojas se arremolinan a mi alrededor, girando con la brisa. Me obligo a avanzar a pesar de que todo lo que quiero hacer es huir. Huir y ocultarme hasta que me encuentren. Me escondo detrás de un tocón de árbol y trato de recordar cómo respirar. El papel se siente áspero bajo mis dedos. Los anuncios continúan, puntuados por explosiones de luz cegadora que me hacen cerrar los ojos y apretar las manos contra mis párpados.`
 }
 
 export default book

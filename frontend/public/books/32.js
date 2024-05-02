@@ -1,10 +1,12 @@
 const book = {
-    title: "Sandman",
-    book: `Cuando el hombre comete un crimen, lo que realmente está haciendo es descubrir un secreto tan maravilloso que no puede soportarlo solo. Debe compartirlo con alguien. Y el crimen es el acto de compartir este secreto. Es un esfuerzo para comunicar una experiencia demasiado estremecedora para que la soporte uno solo.
+    title: "Watchmen",
+    book: `El comediante mira abajo. Desde esta altura, desde la azotea del Rockefeller Center, la gente parece pequeña y tan próxima. ¡Tan susceptible!
 
-    Esta es la razón por la cual los crímenes siguen sin ser resueltos. Y por qué los libros de misterio son tan populares. Lo que está claro para uno, de repente se vuelve turbio y misterioso para otro. Lo que uno sabe, los demás luchan por entender.
+    De repente, la ciudad está llena de súbitos y agudos ruidos. El sol sale como una hendidura de plata sobre el mar, rompiendo la oscuridad de la noche. La ciudad yace abajo, tan vulnerable.
     
-    Hay dos hechos que deben ser aceptados antes de que podamos discutir la muerte del Hombre de Arena. El primero es que el Hombre de Arena es un ser mitológico. El segundo es que el Hombre de Arena es mortal.`
+    Y él es tan grande, fuerte, un Dios. Su pecho es amplio y su sonrisa confiada. Pero debajo de la máscara, el comediante llora.
+    
+    La ciudad es Nueva York. La hora, las 11:25 PM. La noche es de abril. La ciudad está llena de ruido. La ciudad está llena de vida.`
 }
 
 export default book

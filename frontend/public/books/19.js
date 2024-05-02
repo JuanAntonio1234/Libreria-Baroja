@@ -1,8 +1,6 @@
 const book = {
-    title: "El código Da Vinci",
-    book: `Renoncer: aceptar una realidad sin importar lo difícil que sea. Renunciar al ego. Renunciar a los deseos personales y a la necesidad de controlar a los demás. Renunciar al apego a la vida tal y como la conocemos.
-
-    A Langdon le costaba imaginar a quienquiera que fuera el hombre que había escrito esas palabras. Renunciar, renunciar, renunciar... Todo en la vida era cuestión de dejar atrás algo. La regla era simple: encontrar un equilibrio entre el exceso y la carencia.`
+    title: "Fullmetal Alchemist",
+    book: `En un mundo donde la alquimia es una ciencia avanzada y poderosa, dos hermanos, Edward y Alphonse Elric, desafían las leyes naturales en un intento desesperado por resucitar a su madre fallecida. Sin embargo, su experimento falla catastróficamente, dejando a Edward sin un brazo y una pierna, y a Alphonse con su alma atrapada en una armadura. Decididos a encontrar una manera de restaurar sus cuerpos, los hermanos Elric se embarcan en un viaje épico lleno de peligros y descubrimientos.`
 }
 
 export default book

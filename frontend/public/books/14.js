@@ -1,6 +1,6 @@
 const book = {
-    title: "Tokyo Ghoul",
-    book: 'En el oscuro y sombrío mundo de Tokyo Ghoul, los seres humanos coexisten con criaturas conocidas como "ghouls", seres que se alimentan de carne humana. La historia sigue a Kaneki Ken, un joven universitario que se ve arrastrado a este mundo oscuro después de un encuentro con una atractiva chica que resulta ser un ghoul. Después de un incidente traumático, Kaneki se encuentra atrapado entre dos mundos: el de los humanos y el de los ghouls.'
+    title: "Attack on Titan",
+    book: "En el mundo que una vez fue dominado por monstruos, la humanidad ha construido murallas para protegerse. Dentro de estas murallas, vivían en paz, creyendo que estaban a salvo de los horrores más allá de ellas. Sin embargo, un día, un Titán Colosal, más alto que cualquier muro, apareció de repente y destruyó la ilusión de seguridad que habían construido. Los Titánes invadieron el territorio humano, devorando a todo a su paso."
 }
 
 export default book

@@ -1,10 +1,10 @@
 const book = {
-    title: "Berserk",
-    book: `En un mundo atormentado por la oscuridad y la guerra, un hombre busca venganza contra los demonios que destruyeron su vida. Su nombre es Guts, un guerrero solitario con una espada más grande que él mismo.
+    title: "Preacher",
+    book: `a primera vez que lo vi, llevaba un traje negro y una corbata blanca. Caminaba con una confianza serena, como si fuera dueño del mundo. Y en ese momento, tal vez lo fuera.
 
-    A lo largo de su viaje, Guts se enfrenta a innumerables peligros y desafíos. Desde batallas épicas contra criaturas monstruosas hasta conflictos internos con su propia humanidad, cada paso de su camino está marcado por la violencia y el sufrimiento.
+    Me encontraba en el bar, ahogando mis penas en alcohol como solía hacer. No tenía nada que perder, nada que esperar. Mi vida era una serie de fracasos y desilusiones, y pensé que siempre sería así.
     
-    Pero a medida que avanza, Guts descubre que la verdadera batalla no es solo contra los demonios que lo persiguen, sino también contra los demonios que lleva dentro.`
+    Pero entonces él apareció. El predicador. El hombre que cambiaría mi vida para siempre.`
 }
 
 export default book

@@ -1,6 +1,6 @@
 const book = {
-    title: "One Piece",
-    book: 'En el mar del este, existe un hombre que se convirtió en pirata. Él era más grande, más fuerte y más temido que cualquier otro pirata en todo el mundo. Su nombre era Gold Roger. Los piratas de todo el mundo sueñan con encontrar el legendario tesoro de Gold Roger, conocido como el One Piece. Sin embargo, un día, Gold Roger fue capturado por la marina, y antes de ser ejecutado, pronunció sus últimas palabras. "Eh, ustedes, ¿quieren mi tesoro? ¡Lo pueden tomar! ¡Vayan a buscarlo! ¡Yo lo escondí todo en un lugar...!" Y así, comenzó la gran era de la piratería.'
+    title: "Crimen y Castigo",
+    book: "En el mes de julio, en un caluroso día que luchaba con los cálculos y adivinanzas de un examen final en la universidad, un joven salió apresuradamente de su pequeña habitación en la callejuela de S--- en San Petersburgo, y, sin detenerse un momento, se dirigió con paso firme hacia el puente del canal. Había decidido hacer algo inesperado, y en su rostro había una expresión de determinación, casi de desafío. Daba la impresión de haber resuelto hacer cualquier cosa en el mundo antes que seguir soportando por más tiempo lo que ya se había vuelto intolerable."
 }
 
 export default book

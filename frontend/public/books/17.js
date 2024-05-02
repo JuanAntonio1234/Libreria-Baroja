@@ -1,6 +1,6 @@
 const book = {
-    title: "One Punch Man",
-    book: `En un mundo plagado de monstruos y villanos, los héroes luchan valientemente para proteger a la humanidad. Sin embargo, hay un héroe diferente a los demás, un hombre llamado Saitama, que puede derrotar a cualquier enemigo con un solo puñetazo. Aunque posee una fuerza increíble, Saitama lucha contra el aburrimiento y la falta de reconocimiento mientras busca desafíos verdaderamente emocionantes.`
+    title: "Tokyo Ghoul",
+    book: 'En el oscuro y sombrío mundo de Tokyo Ghoul, los seres humanos coexisten con criaturas conocidas como "ghouls", seres que se alimentan de carne humana. La historia sigue a Kaneki Ken, un joven universitario que se ve arrastrado a este mundo oscuro después de un encuentro con una atractiva chica que resulta ser un ghoul. Después de un incidente traumático, Kaneki se encuentra atrapado entre dos mundos: el de los humanos y el de los ghouls.'
 }
 
 export default book

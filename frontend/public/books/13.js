@@ -1,6 +1,6 @@
 const book = {
-    title: "My Hero Academia",
-    book: `En un mundo donde casi toda la población tiene algún tipo de habilidad sobrenatural conocida como "Quirk", ser un héroe se ha convertido en una profesión común. Los héroes, dotados de poderes especiales, luchan contra los villanos y protegen a la sociedad. Sin embargo, para Izuku Midoriya, un chico que nació sin Quirk pero sueña con convertirse en un gran héroe como su ídolo All Might, el camino hacia su sueño parece imposible.`
+    title: "Dragon Ball",
+    book: "Un día, un joven llamado Son Goku se encontró con una misteriosa niña llamada Bulma, que estaba buscando las siete Bolas de Dragón legendarias que, según se dice, conceden cualquier deseo al que las reúna todas. Goku, que vive solo en las montañas, no había visto nunca una niña, así que estaba emocionado de conocer a Bulma. Después de escuchar sobre las Bolas de Dragón, Goku decidió unirse a Bulma en su búsqueda."
 }
 
 export default book

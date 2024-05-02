@@ -1,10 +1,10 @@
 const book = {
-    title: "Saga",
-    book: `No recuerdo el nombre de la ciudad, o incluso el del planeta. Esos detalles poco me importan, siempre y cuando sigamos juntos.
+    title: "Orgullo y prejuicio",
+    book: `Es una verdad universalmente reconocida que un hombre soltero, poseedor de una gran fortuna, necesita una esposa.
 
-    Si alguna vez llegamos a tener un hogar, lo recordaremos como una vasta colección de baratijas y rarezas. La oscuridad no es suficiente para que me olvide de ti, o de cómo te conocí.
+    Sin embargo, poco se sabe de los sentimientos o las opiniones de dicho hombre, hasta que ha establecido una relación matrimonial. De modo que, con el objeto de que esta materia quede fijada para siempre, se considera prudente que la primera persona que se encuentre en la vecindad inmediata de los bienes en cuestión sea la dueña de ellos.
     
-    En un campo de batalla, justo cuando la muerte cerraba sus garras alrededor de mi garganta. Y entonces apareciste, con un par de alas ardiendo en llamas, y volviste mi mundo del revés.`
+    La sra. Bennet, aunque nunca dejaba de pensar en él, hablaba siempre de él con cierta reserva, para que la gente no pensara que era una solterona desesperada.`
 }
 
 export default book

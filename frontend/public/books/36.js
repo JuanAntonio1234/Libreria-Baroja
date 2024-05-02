@@ -1,10 +1,8 @@
 const book = {
-    title: "Preacher",
-    book: `a primera vez que lo vi, llevaba un traje negro y una corbata blanca. Caminaba con una confianza serena, como si fuera dueño del mundo. Y en ese momento, tal vez lo fuera.
+    title: "Spider-Man: Blue",
+    book: `a primera vez que vi a Gwen Stacy, estaba enamorado de otra mujer. Esa mujer era Mary Jane Watson. Estábamos en la secundaria y aunque Mary Jane no se había dado cuenta todavía, yo había decidido que un día nos casaríamos.
 
-    Me encontraba en el bar, ahogando mis penas en alcohol como solía hacer. No tenía nada que perder, nada que esperar. Mi vida era una serie de fracasos y desilusiones, y pensé que siempre sería así.
-    
-    Pero entonces él apareció. El predicador. El hombre que cambiaría mi vida para siempre.`
+    Pero las cosas rara vez funcionan como uno espera. El amor tiene una forma de entrar en tu vida cuando menos lo esperas. Así fue como me encontré a mí mismo enamorado de Gwen. No recuerdo exactamente cómo sucedió, sólo que una mañana me desperté y estaba allí, como el sol saliendo sobre el horizonte. Brillante y caliente y completo.`
 }
 
 export default book

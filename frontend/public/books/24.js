@@ -1,8 +1,10 @@
 const book = {
-    title: "La sombra del viento",
-    book: `Un amanecer de 1945 un muchacho es conducido por su padre a un misterioso lugar oculto en el corazón de la ciudad vieja: El Cementerio de los Libros Olvidados. Allí, Daniel Sempere encuentra un libro maldito que cambia el rumbo de su vida y le arrastra a un laberinto de intrigas y secretos enterrados en lo más oscuro de la historia de la ciudad.
+    title: "Cazadores de sombras: Ciudad de hueso",
+    book: `Prohibido llorar. Era la primera regla del Instituto, y la más importante. Emma Carstairs había aprendido esto desde que era muy joven. No llorar, no importa lo mucho que doliera. Ni siquiera cuando su padre y su madre habían muerto en la guerra, cuando ella tenía solo diez años, y había vuelto a su casa para encontrar a la niñera, asesinada en la sala de estar, con la sangre aún goteando de su cuello.
 
-    La sombra del viento es un misterio literario ambientado en la Barcelona de la primera mitad del siglo XX, desde los últimos esplendores del Modernismo hasta las tinieblas de la posguerra.`
+    Ella había sido la única de los niños que había quedado. Ella había sido la única que había sobrevivido.
+    
+    La historia de lo que le había sucedido a su niñera había sido uno de los secretos de su infancia, un cuento de horror que la mantenía despierta por la noche.`
 }
 
 export default book

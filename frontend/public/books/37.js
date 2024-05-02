@@ -1,10 +1,10 @@
 const book = {
-    title: "Y: El último hombre",
-    book: `Un momento estaba en la cima del mundo, el siguiente estaba solo. Todos los hombres habían muerto. Todos, excepto uno.
+    title: "The Walking Dead",
+    book: `Este es el final del mundo, ya no hay lugar para la esperanza o la compasión. Las reglas de la sociedad han sido reemplazadas por la ley de la selva. Aquellos que alguna vez fueron humanos ahora son poco más que monstruos devoradores de carne. Y en medio de todo esto, un pequeño grupo de sobrevivientes lucha por mantenerse con vida.
 
-    Yorick Brown era un hombre común y corriente, sin nada especial que lo distinguiera del resto. Pero de repente se encontró como el único hombre en un mundo dominado por mujeres.
+    Rick Grimes despierta en un hospital abandonado, sin saber cómo llegó allí o cuánto tiempo ha pasado desde que el mundo se fue al infierno. Pronto se da cuenta de que está solo, atrapado en un mundo de pesadilla poblado por muertos vivientes sedientos de sangre.
     
-    El caos reinaba en las calles mientras la humanidad luchaba por comprender lo que había sucedido. Pero mientras el mundo se sumía en la locura, Yorick tenía una misión: encontrar a su novia perdida y descubrir la verdad detrás de este misterio.`
+    Decidido a encontrar a su familia, Rick se embarca en un viaje peligroso a través de un paisaje desolado lleno de peligros. Pero a medida que lucha por sobrevivir, descubre que las mayores amenazas no siempre vienen de los muertos, sino de los vivos que harían cualquier cosa para mantenerse a salvo.`
 }
 
 export default book

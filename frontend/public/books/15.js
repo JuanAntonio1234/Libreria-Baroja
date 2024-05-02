@@ -1,6 +1,6 @@
 const book = {
-    title: "Demon Slayer: Kimetsu no Yaiba",
-    book: `En un mundo donde los demonios acechan en la oscuridad y amenazan la existencia de la humanidad, los cazadores de demonios, conocidos como "Demon Slayer", luchan valientemente para proteger a la gente. Tanjiro Kamado, un joven bondadoso y dedicado, se embarca en una peligrosa misión después de que su familia sea brutalmente asesinada por un demonio, y su hermana Nezuko se convierta en uno de ellos.`
+    title: "Death Note",
+    book: "En el mundo de los seres humanos y shinigamis, existe un cuaderno especial conocido como Death Note. Este cuaderno tiene el poder de causar la muerte a cualquier persona cuyo nombre sea escrito en él, siempre y cuando el escritor tenga en mente el rostro de la persona. El Death Note cae del cielo y es recogido por un estudiante de secundaria brillante pero desilusionado llamado Light Yagami."
 }
 
 export default book

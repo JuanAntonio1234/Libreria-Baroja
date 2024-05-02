@@ -1,10 +1,6 @@
 const book = {
-    title: "Cazadores de sombras: Ciudad de hueso",
-    book: `Prohibido llorar. Era la primera regla del Instituto, y la más importante. Emma Carstairs había aprendido esto desde que era muy joven. No llorar, no importa lo mucho que doliera. Ni siquiera cuando su padre y su madre habían muerto en la guerra, cuando ella tenía solo diez años, y había vuelto a su casa para encontrar a la niñera, asesinada en la sala de estar, con la sangre aún goteando de su cuello.
-
-    Ella había sido la única de los niños que había quedado. Ella había sido la única que había sobrevivido.
-    
-    La historia de lo que le había sucedido a su niñera había sido uno de los secretos de su infancia, un cuento de horror que la mantenía despierta por la noche.`
+    title: "Shigatsu wa Kimi no Uso",
+    book: `Shigatsu wa Kimi no Uso, también conocido como Your Lie in April, cuenta la historia de Kousei Arima, un prodigioso pianista que perdió la capacidad de escuchar el sonido del piano después de la muerte de su madre. Kousei vive una vida monótona y sin sentido hasta que conoce a Kaori Miyazono, una vibrante violinista que lo saca de su letargo y lo inspira a redescubrir la música y el amor.`
 }
 
 export default book

@@ -1,10 +1,10 @@
 const book = {
-    title: "The Walking Dead",
-    book: `Este es el final del mundo, ya no hay lugar para la esperanza o la compasión. Las reglas de la sociedad han sido reemplazadas por la ley de la selva. Aquellos que alguna vez fueron humanos ahora son poco más que monstruos devoradores de carne. Y en medio de todo esto, un pequeño grupo de sobrevivientes lucha por mantenerse con vida.
+    title: "Saga",
+    book: `No recuerdo el nombre de la ciudad, o incluso el del planeta. Esos detalles poco me importan, siempre y cuando sigamos juntos.
 
-    Rick Grimes despierta en un hospital abandonado, sin saber cómo llegó allí o cuánto tiempo ha pasado desde que el mundo se fue al infierno. Pronto se da cuenta de que está solo, atrapado en un mundo de pesadilla poblado por muertos vivientes sedientos de sangre.
+    Si alguna vez llegamos a tener un hogar, lo recordaremos como una vasta colección de baratijas y rarezas. La oscuridad no es suficiente para que me olvide de ti, o de cómo te conocí.
     
-    Decidido a encontrar a su familia, Rick se embarca en un viaje peligroso a través de un paisaje desolado lleno de peligros. Pero a medida que lucha por sobrevivir, descubre que las mayores amenazas no siempre vienen de los muertos, sino de los vivos que harían cualquier cosa para mantenerse a salvo.`
+    En un campo de batalla, justo cuando la muerte cerraba sus garras alrededor de mi garganta. Y entonces apareciste, con un par de alas ardiendo en llamas, y volviste mi mundo del revés.`
 }
 
 export default book
