@@ -42,7 +42,7 @@ const CheckoutForm = () => {
                 }
 
             } catch(err){
-                console.log("PETÓ --> " + err)
+                console.log(err)
             }
         }
     }

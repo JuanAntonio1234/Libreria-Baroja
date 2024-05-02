@@ -6,9 +6,9 @@ import { getBookById } from "../../services/bookService";
 import { deleteBookFromUserLibrary } from "../../services/userBookService";
 
 const PersonalLibrary = () => {
+
   let librosTablaIntermedia = []
   const [libros, setLibros] = useState([]);
-  const [hasbeenset , setHasbeenset] = useState(true);
 
   let libros_ = [];
 
@@ -24,7 +24,6 @@ const PersonalLibrary = () => {
   };
   
    const getLibros = async () => {
-
 
   for(let i = 0; i < librosTablaIntermedia.length; i++){
     const book = await getBookById(librosTablaIntermedia[i].bookId);
