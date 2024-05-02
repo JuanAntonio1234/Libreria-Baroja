@@ -53,7 +53,7 @@ const Mangas = () => {
 
 
   return (
-    <div id="library">
+    <div id="mangas">
       <h1>Mangas</h1>
       
       <div><input type="text" id="search" placeholder="Search..."></input>
