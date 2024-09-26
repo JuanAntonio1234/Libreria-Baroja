@@ -24,6 +24,7 @@ async function createUser(req, res) {
 
 async function updateUser(req, res) {
   try {
+    console.log(res.locals.user)
     const user = await User.update({
       rol: "premiumUser"
     }, {
@@ -31,9 +32,11 @@ async function updateUser(req, res) {
     })
     res.send(user)
   } catch (error) {
-    res.status("Error --> updateUser").send(error)
+    console.error("Error --> updateUser", error);
+    res.status(500).send({ error: "Error actualizando el usuario", details: error.message });
   }
 }
+
 
 async function deleteUserById(req, res) {
   try {

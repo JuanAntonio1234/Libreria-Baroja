@@ -3,7 +3,7 @@
 const { Sequelize } = require('sequelize');
 
 
-const connection = new Sequelize('libreria-baroja', 'juan', '1234', {
+const connection = new Sequelize('libreria_baroja', 'juan', '1234', {
     host: 'localhost', // Dirección del servidor de la base de datos
     dialect: 'mysql', // Especificamos que usaremos MySQL como el sistema de gestión de base de datos
     port: 3306,       // Puerto por el que se conecta al servidor MySQL, 3306 es el predeterminado para MySQL
